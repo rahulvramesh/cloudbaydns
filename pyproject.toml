@@ -11,6 +11,7 @@ unicorn = "^1.0.3"
 uvicorn = {extras = ["standard"], version = "^0.17.5"}
 SQLAlchemy = "^1.4.31"
 alembic = "^1.7.6"
+tenacity = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
