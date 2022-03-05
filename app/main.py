@@ -5,6 +5,7 @@ from app.core.config import settings
 
 from .dependencies import get_query_token
 from .routers import items, users
+from .modules.docker import api
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -23,6 +24,7 @@ if settings.BACKEND_CORS_ORIGINS:
 
 app.include_router(users.router, prefix=settings.API_V1_STR)
 app.include_router(items.router, prefix=settings.API_V1_STR)
+app.include_router(api.router, prefix=settings.API_V1_STR)
 
 
 @app.get("/")
