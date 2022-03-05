@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Unnamed" type="Python.FastAPI" nameIsGenerated="true">
+  <configuration default="false" name="Main" type="Python.FastAPI">
     <option name="file" value="$PROJECT_DIR$/app/main.py" />
     <module name="cloudbaydns" />
     <option name="INTERPRETER_OPTIONS" value="" />
