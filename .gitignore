@@ -6,3 +6,5 @@ testing-project
 poetry.lock
 dev-link/
 .idea/
+.idea
+.idea/*
