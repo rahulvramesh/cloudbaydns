@@ -1,7 +1,4 @@
-import secrets
-from typing import Any, Optional, List
-
-from pydantic import BaseSettings, AnyHttpUrl, HttpUrl
+from pydantic import BaseSettings
 
 
 class Settings(BaseSettings):
